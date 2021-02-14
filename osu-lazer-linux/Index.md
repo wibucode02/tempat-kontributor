@@ -18,50 +18,60 @@ Cara yang kali ini akan dilakukan lewat command line, buka CLI dan lakukan cara-
 
 1. ### Download file AppImage
 
-   Download file osu!lazer AppImage, tunggu sampai selesai.
+Download file osu!lazer AppImage, tunggu sampai selesai.
 
-   ```sh
-   cd /tmp
-   wget https://github.com/ppy/osu/releases/latest/download/osu.AppImage
-   ```
+```sh
+cd /tmp
+wget https://github.com/ppy/osu/releases/latest/download/osu.AppImage
+```
 
 2. ### Buat File osu!lazer Executable
 
-   > File ini bisa dijalankan diseluruh linux. Jika mengalami masalah, kunjungi [halaman ini](https://docs.appimage.org/user-guide/troubleshooting/index.html).
+> File ini bisa dijalankan diseluruh linux. Jika mengalami masalah, kunjungi [halaman ini](https://docs.appimage.org/user-guide/troubleshooting/index.html).
 
-   Supaya bisa dijalankan, ubah permission file menjadi executable.
+Supaya bisa dijalankan, ubah permission file menjadi executable.
 
-   ```sh
-   chmod +x ./osu.AppImage
-   ```
+```sh
+chmod +x ./osu.AppImage
+```
 
 3. ### Buat Folder Penampung
 
-   Buat folder untuk menampung file AppImage untuk dipindahkan ke folder `/opt` dan ubah permission folder menjadi root.
+Buat folder untuk menampung file AppImage untuk dipindahkan ke folder `/opt` dan ubah permission folder menjadi root.
 
-   ```sh
-   mkdir Osu
-   mv ./osu.AppImage ../Osu
-   sudo chown -R root:root ./Osu
-   sudo mv ./Osu /opt
-   ```
+```sh
+mkdir Osu
+mv ./osu.AppImage ../Osu
+sudo chown -R root:root ./Osu
+sudo mv ./Osu /opt
+```
 
 4. ### Tambahkan osu!lazer ke System Path
 
-   Buat symbolic link supaya bisa diakses dimana saja dalam komputer.
+Buat symbolic link supaya bisa diakses dimana saja dalam komputer.
 
-   ```sh
-   sudo ln -s /opt/Osu/osu.AppImage /usr/bin/osu
-   ```
+```sh
+sudo ln -s /opt/Osu/osu.AppImage /usr/bin/osu
+```
 
 5. ### Menjalankannya
 
-   Untuk menjalankannya tinggal mengetikkan osu dan tunggu clientnya terbuka.
+Untuk menjalankannya tinggal mengetikkan osu dan tunggu clientnya terbuka.
 
-   ```sh
-   osu
-   ```
+```sh
+osu
+```
 
 ## Download Beatmap
 
-    Beatmap adalah lagu ritme yang didownload untuk dimainkan. Di lazer ini bisa di download di dalam game, tetapi harus login terlebih dahulu.
+Beatmap adalah lagu ritme yang didownload untuk dimainkan. Di lazer ini bisa di download di dalam game, tetapi harus login terlebih dahulu. Untuk register akun bisa dalam game dan setelah itu aktivasi lewat email yang sudah dikirim.
+
+<br />
+
+## Screenshot
+
+![Screenshot Game osu!lazer](./screenshot.png)
+
+<br/><br/>
+
+Jadi begitulah install osu!lazer di linux, jika ada pertanyaan bisa komen di kolom komentar di bawah :) Terimakasih.
