@@ -2,6 +2,7 @@
 author: Ezra Khairan Permana
 title: Instalasi osu!lazer di linux
 description: Cara menginstall osu!lazer di linux dengan benar.
+draft: false
 ---
 
 Game osu! adalah game ritme yang menggunakan musik dalam permainannya. Osu ini terbagi dalam 4 mode yaitu mode normal (circle), mode taiko (drum), mode catch (menangkap buah-buahan), dan mode mania (piano). Game yang satu ini memiliki sistem skor SS, S, A, B, C, dan D tergantung dari tingkat keakuratan yang dicapai. Game ini bisa dimainkan secara multiplayer. Source code dari game ini juga tersedia di [Github](https://github.com/ppy/osu).
