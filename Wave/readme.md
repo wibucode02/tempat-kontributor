@@ -1,4 +1,4 @@
-<img src=screenshot.png>
+<img src=Screenshot.png>
 <hr>
 <p>Author: Bagas Dwi</p>
 
