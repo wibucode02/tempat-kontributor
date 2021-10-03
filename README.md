@@ -3,6 +3,8 @@
 \
 <br />
 
+# Special Event :tada:
+
 # What's Hacktoberfest 2021?
 
 Hacktoberfest is the easiest way to get into open source! Hacktoberfest is a month long festival of open source code presented by [Digital Ocean](https://www.digitalocean.com/) and [DEV](https://dev.to/) this year in 2021.
