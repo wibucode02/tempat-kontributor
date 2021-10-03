@@ -5,13 +5,11 @@ description: Menginstall Balena Etcher di Arch Based dan Penggunaannya
 draft: false
 ---
 
-![](./thumbnail.png)
+![](thumbnail.png)
 
 ## A. Pendahuluan
 
-Balena Etcher adalah salah satu program yang sering dipakai untuk membuat bootable flashdisk karena praktis dan mudah digunakan. Balena Etcher juga gratis dan open source. 
-
-<br>
+Balena Etcher adalah salah satu program yang sering dipakai untuk membuat bootable FD karena praktis dan mudah digunakan. Balena Etcher juga gratis dan open source. 
 
 ## B. Proses
 
