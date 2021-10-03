@@ -15,13 +15,13 @@ Balena Etcher adalah salah satu program yang sering dipakai untuk membuat bootab
 
 Oke kita langsung ke tahapannya:
 
-- Untuk menginstall Balena Etcher di Arch based, kita akan memilih binary releasenya aja. Masuk ke terminal, kemudian ketikkan 
+- Untuk menginstall Balena Etcher di Arch based, kita akan memilih binary releasenya aja. Masuk ke terminal, kemudian ketikkan: 
   ```sh 
   yay -S etcher-bin
   ``` 
 - Silahkan masukkan password anda jika diminta. 
 
-- Perlu diingat, prosesnya ini agak lama, jadi kalian bisa melakukan aktivitas lain dulu atau sambil ngopi :D
+- Perlu diingat, prosesnya ini agak lama, jadi kalian bisa melakukan aktivitas lain dulu atau sambil ngopi :D .
 
   ![](sc2.png)
 
@@ -29,7 +29,7 @@ Oke kita langsung ke tahapannya:
 
 Nah setelah terinstall, kita akan mencoba menggunakan Balena Etcher ini untuk membuat bootable. Disini saya akan membuat bootable Archcraft di FD 16gb. 
 
-- Buka Balena Etcher
+- Buka Balena Etcher.
 - Klik "Flash from file", kemudian kalian pilih file iso yang sudah disiapkan. 
 - Setelah itu pilih "Select Target", kemudian pilih FD yang sudah kalian masukkan. 
 
