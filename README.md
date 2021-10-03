@@ -26,7 +26,7 @@ Merupakan tempat bagi kalian untuk berkontributor bersama kami
 # Penting
 Sebelum melakukan PR ( Pull Request ) baca terlebih dahulu di http://wibucode.com/kontributor/
 
-Untuk ukuran thumbnail postingan artikel 640 x 360 format gambar nya bebas jpg / png dan rekomendasi webp
+Untuk ukuran thumbnail postingan 640 x 360 format gambar nya bebas jpg / png dan rekomendasi webp
 
 \
 <br />
@@ -38,7 +38,7 @@ Untuk ukuran thumbnail postingan artikel 640 x 360 format gambar nya bebas jpg /
 
 author: " Nama kamu "
 
-title: " Judul artikel "
+title: " Judul "
 
 description: " Deskripsinya "
 
@@ -46,3 +46,20 @@ description: " Deskripsinya "
 ```
 
 Jangan lupa menyertakan photo profil jpg / png
+
+\
+<br />
+
+# Sites
+
+**Writter**
+https://wibucode.com/tags/kontributor/
+
+**Code**
+https://wibucode.com/project/
+
+**Design**
+https://wibucode.com/ui-design/
+
+
+
