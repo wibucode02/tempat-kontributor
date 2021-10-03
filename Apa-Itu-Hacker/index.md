@@ -8,7 +8,7 @@ draft: false
 
 # Apa Itu Hacker
 
-![Screenshot Game osu!lazer](./screenshot.png)
+![Gambar_Hacker](./1199981223.jpg)
 
 <br>
 <br>
