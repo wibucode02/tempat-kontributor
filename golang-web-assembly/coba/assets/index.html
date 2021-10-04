@@ -1,0 +1,28 @@
+<html>  
+    <head>
+        <meta charset="utf-8"/>
+        <script src="wasm_exec.js"></script>
+        <script>
+			const go = new Go();
+			WebAssembly.instantiateStreaming(fetch("akarkan.wasm"), go.importObject).then((result) => {
+				go.run(result.instance);
+			});
+            
+        </script>
+    </head>
+    <body>
+
+        <h1>Cari Akar</h1>
+       <h5 id="hasil"></h5>
+        <input type="number" id="input-angka"/>
+        <button onclick="akarkan();">Cari Akar</button>
+
+        <script>
+            function akarkan() {
+                let bilangan  = document.getElementById('input-angka').value
+                let hasil = goCariAkar(bilangan)
+                document.getElementById('hasil').innerHTML = `Hasil Akar ${bilangan} adalah ${hasil}`
+            }
+        </script>
+    </body>
+</html> 
