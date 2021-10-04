@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <!-- Slick css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <!-- Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Local Style -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>My Company</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white navbar-custom shadow-custom"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">My Company</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-nav-custom ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Kontak Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero animate__animated animate__fadeIn">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-auto hero-text">
+            <h1>My Company</h1>
+            <p>Selamat Datang di Website Profil Perusahaan kami.</p>
+            <p>Kami menawarkan berbagai macam produk dan layanan untuk Anda.</p>
+            <div class="button-section">
+              <a
+                class="btn btn-theme rounded-pill shadow-custom me-2"
+                href="products.html"
+                >Lihat Produk</a
+              >
+              <a
+                class="btn btn-theme-outline rounded-pill shadow-custom"
+                href="services.html"
+                >Lihat Layanan</a
+              >
+            </div>
+          </div>
+          <div class="col-md hero-illustration">
+            <img class="img-fluid" src="assets/svg/Business Plan-pana.svg" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Intro -->
+    <section class="intro">
+      <!-- Design -->
+      <img class="design1" src="assets/svg/design1.svg" />
+      <img class="design2" src="assets/svg/design2.svg" />
+      <div class="container">
+        <div id="myHeading" class="heading invisible animate__animated">
+          <h2>Mengenal Kami</h2>
+          <p>
+            Kami Adalah Perusahaan yang bergerak di bidang Produk dan Layanan
+            untuk keseharian Anda. Tujuan Utama Kami yaitu bisa berguna dan
+            bermanfaat bagi Anda dalam menggunakan jasa kami.
+          </p>
+        </div>
+
+        <div id="mySlide" class="slideshow invisible animate__animated">
+          <div class="slider">
+            <div class="slide-content">
+              <img src="assets/images/slide1.jpg" />
+            </div>
+            <div class="slide-content">
+              <img src="assets/images/slide2.jpg" />
+            </div>
+            <div class="slide-content">
+              <img src="assets/images/slide3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistic -->
+    <section class="statistic">
+      <div class="container">
+        <div class="statistic-content d-flex justify-content-around">
+          <div id="myKaryawan" class="karyawan d-none animate__animated">
+            <img src="assets/svg/karyawan.svg" />
+            <p class="pt-2">Karyawan</p>
+            <p><span class="counter">30</span></p>
+          </div>
+          <div id="myProduk" class="produk d-none animate__animated">
+            <img src="assets/svg/produk.svg" />
+            <p class="pt-2">Produk</p>
+            <p><span class="counter">600</span></p>
+          </div>
+          <div id="myLayanan" class="layanan d-none animate__animated">
+            <img src="assets/svg/layanan.svg" />
+            <p class="pt-1">Layanan</p>
+            <p><span class="counter">346</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product -->
+    <section class="products">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-lg-auto">
+            <h2 id="titleProductsSection" class="invisible animate__animated">
+              Produk Kami
+            </h2>
+            <div class="products-content d-flex">
+              <div
+                id="myProduk1"
+                class="card border-0 product-card shadow-custom invisible animate__animated"
+              >
+                <div
+                  class="image d-flex justify-content-center align-items-center"
+                >
+                  <img src="assets/images/produk1.jpg" />
+                </div>
+                <div class="title d-flex align-items-center">
+                  <p class="m-0">
+                    <a href="products/product1.html">Tea Timer</a>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                id="myProduk2"
+                class="card border-0 product-card shadow-custom invisible animate__animated"
+              >
+                <div
+                  class="image d-flex justify-content-center align-items-center"
+                >
+                  <img src="assets/images/produk2.jpg" />
+                </div>
+                <div class="title d-flex align-items-center">
+                  <p class="m-0">
+                    <a href="products/product2.html">Drink Holder</a>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                id="myProduk3"
+                class="card border-0 product-card shadow-custom invisible animate__animated"
+              >
+                <div
+                  class="image d-flex justify-content-center align-items-center"
+                >
+                  <img src="assets/images/produk3.jpg" />
+                </div>
+                <div class="title d-flex align-items-center">
+                  <p class="m-0">
+                    <a href="products/product3.html">Automatic Fork</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <a
+                id="btnAllProducts"
+                class="btn btn-theme rounded-pill shadow-custom mt-4 invisible animate__animated"
+                href="products.html"
+                >Selengkapnya</a
+              >
+            </div>
+          </div>
+          <div class="col-md product-illustration">
+            <img src="assets/svg/Product tour-rafiki.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service -->
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md service-illustration">
+            <img src="assets/svg/Delivery-rafiki.svg" />
+          </div>
+          <div class="col-md-7 col-lg-auto">
+            <h2 id="titleServicesSection" class="invisible animate__animated">
+              Layanan Kami
+            </h2>
+            <div class="services-content d-flex">
+              <div
+                id="myService1"
+                class="card border-0 service-card shadow-custom invisible animate__animated"
+              >
+                <div
+                  class="image d-flex justify-content-center align-items-center"
+                >
+                  <img src="assets/images/service1.jpg" />
+                </div>
+                <div class="title d-flex align-items-center">
+                  <p class="m-0">
+                    <a href="services/service1.html">Cleaning Service</a>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                id="myService2"
+                class="card border-0 service-card shadow-custom invisible animate__animated"
+              >
+                <div
+                  class="image d-flex justify-content-center align-items-center"
+                >
+                  <img src="assets/images/service2.jpg" />
+                </div>
+                <div class="title d-flex align-items-center">
+                  <p class="m-0">
+                    <a href="services/service2.html">Order Delivery</a>
+                  </p>
+                </div>
+              </div>
+
+              <div
+                id="myService3"
+                class="card border-0 service-card shadow-custom invisible animate__animated"
+              >
+                <div
+                  class="image d-flex justify-content-center align-items-center"
+                >
+                  <img src="assets/images/service3.jpg" />
+                </div>
+                <div class="title d-flex align-items-center">
+                  <p class="m-0">
+                    <a href="service/service3.html">Food Delivery</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end">
+              <a
+                id="btnAllServices"
+                class="btn btn-theme rounded-pill shadow-custom mt-4 invisible animate__animated"
+                href="services.html"
+                >Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="myTesti" class="testimonials invisible animate__animated">
+      <div class="d-flex justify-content-center">
+        <div class="container">
+          <h2>Testimonials</h2>
+          <div class="slider-testi">
+            <div class="testi-content d-flex justify-content-between">
+              <div class="photo rounded-pill">
+                <img src="assets/images/foto-testi.png" />
+              </div>
+              <div class="content">
+                <p class="text">
+                  “Saya sangat suka dengan Produk-produk yang ditawarkan.”
+                </p>
+                <p class="name">User</p>
+              </div>
+            </div>
+            <div class="testi-content d-flex justify-content-between">
+              <div class="photo rounded-pill">
+                <img src="assets/images/foto-testi2.png" />
+              </div>
+              <div class="content">
+                <p class="text">
+                  “Ini adalah perusahaan yang menyediakan berbagai macam
+                  kebutuhan keseharian saya.”
+                </p>
+                <p class="name">User</p>
+              </div>
+            </div>
+            <div class="testi-content d-flex justify-content-between">
+              <div class="photo rounded-pill">
+                <img src="assets/images/foto-testi3.png" />
+              </div>
+              <div class="content">
+                <p class="text">
+                  “Layanannya sangat bagus, karyawannya sangat ramah dan bekerja
+                  sampai selesai.”
+                </p>
+                <p class="name">User</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <img class="design-footer" src="assets/svg/bg-footer.svg" />
+      <div class="container">
+        <div class="row">
+          <div class="col-md left">
+            <h1>My Company</h1>
+            <p>JL. Nama Jalan, Kota, Provinsi</p>
+          </div>
+          <div class="col-md center d-flex">
+            <ul>
+              <li><a href="#">Tentang Kami</a></li>
+              <li><a href="#">Hubungi Kami</a></li>
+              <li><a href="#">Produk</a></li>
+              <li><a href="#">Layanan</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Pusat Bantuan</a></li>
+              <li><a href="#">Karir</a></li>
+              <li><a href="#">Lainnya</a></li>
+              <li><a href="#">......</a></li>
+            </ul>
+          </div>
+          <div class="col-md right">
+            <h3>Ikuti Kami</h3>
+            <p><a href="#">Facebook</a></p>
+            <p><a href="#">Instagram</a></p>
+            <p><a href="#">Twitter</a></p>
+          </div>
+        </div>
+        <hr />
+        <!-- Copyright -->
+        <small class="copyright m-0 text-muted d-flex justify-content-center"
+          >Copyright 2021</small
+        >
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <svg
+      onclick="topFunction()"
+      id="btnTop"
+      xmlns="http://www.w3.org/2000/svg"
+      class="bi bi-arrow-up-square-fill custom-btt"
+      viewBox="0 0 16 16"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 11.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+      />
+    </svg>
+
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-migrate-3.3.2.min.js"
+      integrity="sha256-Ap4KLoCf1rXb52q+i3p0k2vjBsmownyBTE1EqlRiMwA="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Slick js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- Local Script -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
