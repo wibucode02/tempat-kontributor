@@ -1,65 +1,42 @@
-![hacktobers](https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg)
+* membuat aplikasi sederhana untuk menghitung index nilai berdasarkan nilai UTS, UAS, dan TUBES nya
+* terdapat 6 fungsi yang dibuat
+  ```
+    void main_menu();
+    void set_standar();
+    void set_proporsi_nilai();
+    char hitung_index(double uts, double uas, double tubes);
+    void input_nilai();
+    void thank_you();
+  ```
+* void main_menu()
+    - fungsi berisi pilihan menu di dalam aplikasi:
+      daftar menu:
+      1. set standar index nilai
+      2. set proporsi nilai
+      3. input nilai
+      4. keluar
+    - fungsi meminta input pilihan menu dari user
+      dan memanggil fungsi menu yang dipilih
 
-\
-<br />
+* void set_standar();
+    - fungsi mengubah standar index A, B, C, D, dan E
+    - fungsi akan menerima input rentang nilai untuk masing-masing index nilai
+    - fungsi akan mengulang menerima input dari user jika terdapat nilai yang overlap
+    
+* void set_proporsi_nilai();
+    - fungsi mengubah prosentase nilai UTS, UAS, dan TUBES
+    - fungsi akan menerima 3 input prosentase dari user untuk UTS, UAS, dan TUBES
+    - fungsi akan mengulang menerima input dari user jika total prosentase != 100
+    
+* char hitung_index(double uts, double uas, double tubes);
+    - fungsi menghitung total nilai berdasarkan input parameter dan proporsi nilai
+    - fungsi menentukan index nilai berdasarkan standar nilai
+    - fungsi mengembalikan karakter index nilai
 
-# Special Event :tada:
+* void input_nilai();
+    - fungsi menerima input nilai UTS, UAS, dan TUBES
+    - fungsi menampilkan index yang didapat berdasarkan input nilai UTS, UAS, dan TUBES
 
-# What's Hacktoberfest 2021?
-
-Hacktoberfest is the easiest way to get into open source! Hacktoberfest is a month long festival of open source code presented by [Digital Ocean](https://www.digitalocean.com/) and [DEV](https://dev.to/) this year in 2021.
-
-During the entire month of October 2021, all you have to do is contribute to any open source projects and open at least 4 pull requests. Yes, any project and any kind of contributions. It can be a be a bug fix, improvement, or even a documentation change! And win a T-Shirt and awesome stickers.
-
-If you’ve never contributed to open source before, this is the perfect time to get started because Hacktoberfest provides a large list of available contribution opportunities (and yes, there are always plenty for beginners too).
-
-
-\
-<br />
-
-# tempat-kontributor
-Merupakan tempat bagi kalian untuk berkontributor bersama kami
-
-\
-<br />
-
-# Penting
-Sebelum melakukan PR ( Pull Request ) baca terlebih dahulu di http://wibucode.com/kontributor/
-
-Untuk ukuran thumbnail postingan 640 x 360 format gambar nya bebas jpg / png dan rekomendasi webp
-
-\
-<br />
-
-# Markdownya
-
-```html
----
-
-author: " Nama kamu "
-
-title: " Judul "
-
-description: " Deskripsinya "
-
----
-```
-
-Jangan lupa menyertakan photo profil jpg / png
-
-\
-<br />
-
-# Sites
-
-**Writter**
-https://wibucode.com/tags/kontributor/
-
-**Code**
-https://wibucode.com/project/
-
-**Design**
-https://wibucode.com/ui-design/
-
-
+* void thank_you();
+    - fungsi menampilkan pesan singkat untuk mengakhiri program
 
