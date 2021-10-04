@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Roboto;
+}
+html{
+    position: relative;
+    min-width: 1080px;
+    height: 100vh;
+    background: linear-gradient(315deg, #14279b 25%, #5c7aea 75%);
+    overflow: hidden;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20%;
+    text-shadow: 7px 5px rgb(255, 134, 34);
+}
+section .wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(wave.png);
+    background-size: 1000px 100px;
+}
+section .wave.wave1{
+    animation: animate 30s linear infinite;
+    z-index: 1000;
+    opacity: 1;
+    animation-delay: 0%;
+    bottom: 0;
+}
+section .wave.wave2{
+    animation: animate2 30s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5%;
+}
+@keyframes animate{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100%
+    {
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2{
+    0%
+    {
+        background-position-x: 10;
+    }
+    100%
+    {
+        background-position-x: 500px;
+    }
+}
