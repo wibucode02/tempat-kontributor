@@ -8,7 +8,7 @@ description: " Template "
 
 ---
 
-# Template Website Company #
+# Website Company Template #
 This application is open source for all people who want to learn about making this website.
 
 ![image](https://user-images.githubusercontent.com/46246652/135836820-e500623c-da7b-4972-a0f7-061ba1eb7e8e.png)
