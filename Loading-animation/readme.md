@@ -1,4 +1,4 @@
-<img src="Capture.png">
+<img src="Capture.PNG">
 <hr>
 <p>Author: Bagas Dwi</p>
 <p>Title: Simple loading animation</p>
