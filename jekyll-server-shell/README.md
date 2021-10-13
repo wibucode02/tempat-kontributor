@@ -3,7 +3,7 @@
 ## Clone
 
 ```
-git clone https://github.com/rizkytegar/jekyll-server-sh
+git clone https://github.com/rizkytegar/jekyll-auto-tools
 ```
 
 ## Run 
