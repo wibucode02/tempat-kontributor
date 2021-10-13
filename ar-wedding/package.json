@@ -1,0 +1,31 @@
+{
+  "name": "ar-wedding",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node server.js",
+    "export": "next export",
+    "lint": "next lint",
+    "build_cpanel": "yarn build && yarn export"
+  },
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "lowdb": "^2.1.0",
+    "lru-cache": "^6.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-add-to-calendar-hoc": "^1.0.10",
+    "react-dom": "17.0.2",
+    "sass": "^1.39.0",
+    "sharp": "^0.29.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}

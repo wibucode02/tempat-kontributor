@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export NODE_ENV=production
+    - /bin/cp -r ./out/. /home/n1271022/public_html/wedding
+    - export PORT=80
+    - export VERSION=v14.17.5
+    - export OSNODE=linux-x64
+    - /var/nodejs/node-$VERSION-$OSNODE/bin/yarn start --max-old-space-size=256
