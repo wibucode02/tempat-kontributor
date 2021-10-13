@@ -25,6 +25,6 @@ No worries about deployment, it's also support deploy on Cpanel based server. Th
 
 ## Preview
 
-visit: https://wedding.jusuf.id or just see this image preview
+visit: https://wedding.afifjusuf.id or just see this image preview
 
 ![PreviewImage](./preview.png)
