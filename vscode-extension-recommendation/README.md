@@ -39,12 +39,14 @@ That's all my recommendations extension from VSCode. Hope you like it!
 
 ### Thanks to
 
-https://github.com/formulahendry/vscode-auto-close-tag
-https://github.com/formulahendry/vscode-auto-rename-tag
-https://github.com/CoenraadS/Bracket-Pair-Colorizer-2
-https://github.com/formulahendry/vscode-code-runner
-https://github.com/streetsidesoftware/vscode-spell-checker
-https://github.com/oderwat/vscode-indent-rainbow
-https://github.com/aaron-bond/better-comments
-https://github.com/prettier/prettier-vscode
-https://github.com/ritwickdey/vscode-live-server
+<ul>
+    <li>https://github.com/formulahendry/vscode-auto-close-tag</li>
+    <li>https://github.com/formulahendry/vscode-auto-rename-tag</li>
+    <li>https://github.com/CoenraadS/Bracket-Pair-Colorizer-2</li>
+    <li>https://github.com/formulahendry/vscode-code-runner</li>
+    <li>https://github.com/streetsidesoftware/vscode-spell-checker</li>
+    <li>https://github.com/oderwat/vscode-indent-rainbow</li>
+    <li>https://github.com/aaron-bond/better-comments</li>
+    <li>https://github.com/prettier/prettier-vscode</li>
+    <li>https://github.com/ritwickdey/vscode-live-server</li>
+</ul>
