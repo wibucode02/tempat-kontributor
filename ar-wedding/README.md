@@ -1,3 +1,11 @@
+---
+author: ' Afif Abdillah Jusuf '
+
+title: ' Wedding Landing Page Site '
+
+description: ' This is my first wedding landing page site, feel free to use or contribute to my github 😎, also please visit my site: [afifjusuf.id][https://afifjusuf.id] '
+---
+
 Hello everyone 👋, my name is Afif Abdillah Jusuf, call me Apep, and this is my wedding landing page, feel free to use or contribute to my github 😎, also please visit my site: [afifjusuf.id][https://afifjusuf.id]
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -5,6 +13,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 
 First, make sure you have nodejs and npm installed on your system, then install all dependencies:
+
 ```bash
 npm install
 ```
