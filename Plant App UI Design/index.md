@@ -17,11 +17,11 @@ Plant App UI Design atau UI Design Aplikasi Tanaman Hias. Desain ini dibuat meng
 
 # Komposisi Desain
 <b>1. Penggunaan Warna</b> <br>
-Waran yang digunakan dalam desain ini adalah :
-Green   : #32A64B<br>
-Grey    : #D6D6D6<br>
-Black   : #333333<br>
-White   : #FFFFFF  <br><br>
+Waran yang digunakan dalam desain ini adalah :<br>
+ 1. Green   : #32A64B<br>
+ 2. Grey    : #D6D6D6<br>
+ 3. Black   : #333333<br>
+ 4. White   : #FFFFFF  <br><br>
 
 <b>2. Aset Gambar</b> <br>
 Aset gambar yang digunakan di dalam desain ini diambil dari [Unsplash](https://www.unsplash.com/)  <br><br>
