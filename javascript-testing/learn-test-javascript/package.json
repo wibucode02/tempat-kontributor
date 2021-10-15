@@ -1,0 +1,14 @@
+{
+    "name": "learn-test-with-jest",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "albae69",
+    "license": "unlicensed",
+    "scripts": {
+        "test": "jest --coverage"
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.22",
+        "jest": "^26.6.3"
+    }
+}
