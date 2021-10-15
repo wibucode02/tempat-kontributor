@@ -32,7 +32,7 @@ Font yang digunakan di dalam desain ini adalah Montserrat. Font ini dapat di dow
 <b>4. Icon</b> <br>
 Icon yang digunakan pada desain aplikasi ini adalah Iconly. Icon ini dapat ditemukan di Figma Community di [sini](https://www.figma.com/community/file/876509330914541878) <br><br>
 
-Terimakasih telah membaca artikel ini. Kamu dapat menemukan desain lebih banyak di <br>
+Terimakasih telah membaca artikel ini. Kamu dapat menemukan desain lebih banyak di :<br>
 [Dribbble](https://dribbble.com/productexperience) <br>
 [Instagram](https://www.instagram.com/pxdesign.id/)
 
