@@ -18,9 +18,9 @@ Plant App UI Design atau UI Design Aplikasi Tanaman Hias. Desain ini dibuat meng
 # Komposisi Desain
 <b>1. Penggunaan Warna</b> <br>
 Waran yang digunakan dalam desain ini adalah :
-Green   : #32A64B
-Grey    : #D6D6D6
-Black   : #333333
+Green   : #32A64B<br>
+Grey    : #D6D6D6<br>
+Black   : #333333<br>
 White   : #FFFFFF  <br><br>
 
 <b>2. Aset Gambar</b> <br>
@@ -33,7 +33,7 @@ Font yang digunakan di dalam desain ini adalah Montserrat. Font ini dapat di dow
 Icon yang digunakan pada desain aplikasi ini adalah Iconly. Icon ini dapat ditemukan di Figma Community di [sini](https://www.figma.com/community/file/876509330914541878) <br><br>
 
 Terimakasih telah membaca artikel ini. Kamu dapat menemukan desain lebih banyak di <br>
-[Dribbble](https://dribbble.com/productexperience)
+[Dribbble](https://dribbble.com/productexperience) <br>
 [Instagram](https://www.instagram.com/pxdesign.id/)
 
 
