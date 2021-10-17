@@ -4,6 +4,8 @@ title: Apa Itu Cracker
 description: Penjelasan Apa Itu Cracker
 ---
 
+![Cracker](/hacker-on-computer-1000x600.jpg)
+
 # Cracker
 
 Cracker adalah orang yang melakukan akses tanpa izin pada suatu sistem. Cracker juga bisa disebut seorang hacker blackhat. Dalam mendapatkan akses seorang cracker dapat melakukan beberapa teknik seperti berikut. 
