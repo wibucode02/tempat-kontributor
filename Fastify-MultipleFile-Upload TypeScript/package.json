@@ -1,0 +1,21 @@
+{
+    "name": "typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "fastify": "^3.22.0",
+      "fastify-multipart": "^5.0.2",
+      "pump": "^3.0.0",
+      "typescript": "^4.3.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "ex": "ts-node index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+  
