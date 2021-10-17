@@ -4,7 +4,7 @@ title: Apa Itu Cracker
 description: Penjelasan Apa Itu Cracker
 ---
 
-![Cracker](/hacker-on-computer-1000x600.jpg)
+![Cracker](./hacker-on-computer-1000x600.jpg)
 
 # Cracker
 
