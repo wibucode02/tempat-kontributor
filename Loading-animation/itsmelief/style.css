@@ -1,0 +1,117 @@
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #232427/*#393E46*/;
+}
+
+/* Loader Area */
+.canvas {
+    position: relative;
+    /*left: 50%;
+    top: 50%;
+*/    animation: move-back 4s linear 0s infinite;
+}
+
+.triangle {
+    box-sizing: border-box;
+    position: relative;
+}
+.triangle.left {
+    width: 30px;
+    height: 60px;
+    border-right: solid 30px #B8B5FF;
+    border-bottom: solid 30px transparent;
+    border-top: solid 30px transparent;
+}
+.triangle.right {
+    width: 30px;
+    height: 60px;
+    border-left: solid 30px #EEEEEE;
+    border-bottom: solid 30px transparent;
+    border-top: solid 30px transparent;
+}
+
+#p2 {
+    top: -30px;
+    animation: rotate-left-1 4s ease-in-out 0s infinite normal forwards running;
+}
+#p3 {
+    top: -60px;
+    animation: rotate-right-2 4s ease-in-out 0s infinite normal forwards running;
+}
+#p4 {
+    top: -90px;
+    animation: rotate-left-2 4s ease-in-out 0s infinite normal forwards running;
+}
+
+#p1 {
+    animation: rotate-right-1 4s ease-in-out 0s infinite normal forwards running;
+}
+
+@keyframes rotate-right-1 {
+    0% {
+        transform:rotate(0);
+    }
+    11%,13% {
+        transform-origin:30px 60px;
+        transform:rotate(180deg);
+    }
+    25%,100% {
+        transform-origin:90px top;
+        transform:rotate(360deg) translatey(120px);
+    }
+}
+
+@keyframes rotate-right-2 {
+    0%,50%{
+        transform:rotate(0);
+    }
+    61%,63%{
+        transform-origin:30px 60px;
+        transform:rotate(180deg);
+    }
+    75%,100% {
+        transform-origin:90px top;
+        transform:rotate(360deg) translatey(120px);
+    }
+}
+
+@keyframes rotate-left-1 {
+    0%,25% {
+        transform:rotate(0) translatey(0);
+    }
+    36%,38% {
+        transform-origin:0px 60px;
+        transform:rotate(-180deg) translatey(0);
+    }
+    50%,100% {
+        transform-origin:-60px 120px;
+        transform:rotate(-360deg) translatey(120px);
+    }
+}
+@keyframes rotate-left-2 {
+    0%,75% {
+        transform:rotate(0) translatey(0);
+    }
+    86%,88% {
+        transform-origin:0px 60px;
+        transform:rotate(-180deg) translatey(0);
+    }
+    100% {
+        transform-origin:-60px 120px;
+        transform:rotate(-360deg) translatey(120px);
+    }
+}
+
+@keyframes move-back {
+    0%{
+        top:120px;
+    }
+    100%{
+        top:0px;
+    }
+}
+/* End */
