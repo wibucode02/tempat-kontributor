@@ -12,7 +12,7 @@ draft: false
 
 ---
 
-# 6 Rekomendasi Kursus Pemrograman Online untuk Belajar Coding, Wajib Tahu!
+# 7 Rekomendasi Kursus Pemrograman Online untuk Belajar Coding, Wajib Tahu!
 
 <b>1. Udemy </b> <br>
 
@@ -47,3 +47,9 @@ Aguna Course merupakan platform Belajar IT Online yang membantu kalian belajar k
 <b>6. DumbWays </b> <br>
 
 DumbWays merupakan Coding Bootcamp GRATIS! Pertama di Indonesia hingga disalurkan kerja. Alumni DumbWays dibekali dengan kemampuan Coding Standard Industri Terkini, hingga siap bersaing di dunia kerja. <br><br>
+
+<b>7. Hacktiv8 </b> <br>
+
+Hacktiv8 mengubah pemula menjadi talenta digital terlatih seperti Programmer, Data Scientist, dengan Full Time Program dan Professional Development.
+
+Saatnya untuk membangun karirmu di bidang teknologi. Mulai langkah awalmu untuk menjadi seorang Full Stack Developer bersama Hacktiv8. <br><br>
