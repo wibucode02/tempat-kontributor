@@ -1,0 +1,176 @@
+<!--	•°• It's Me Lief | Not Hacker •°• 
+					Version 4.0 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="[ L13F.R ]">
+
+	<!-- Title -->
+	<title>Script Deface by ./Lief</title>
+
+	<!-- Icon Title -->
+	<link rel="icon" href="https://4.bp.blogspot.com/-gyXTeoYfZYU/WLGzd5IbNEI/AAAAAAAAAgI/7yE1wnuMN4ssfET4BA4GIq18k6xTETuEQCLcB/s1600/logo%2B3.png">
+	
+	<style type="text/css">
+		@import 'https://fonts.googleapis.com/css?family=Inconsolata';
+
+		html {
+		  	min-height: 100%;
+		}
+
+		body {
+			box-sizing: border-box;
+		  	height: 100%;
+		  	overflow: hidden;
+		  	background-color: #000000;
+		  	background-image: radial-gradient(#11581E, #041607);
+		  	font-family: 'Inconsolata', Helvetica, sans-serif;
+		  	font-size: 1.3rem;
+		  	color: rgba(128, 255, 128, 0.8);
+		  	text-shadow:
+		      0 0 1ex rgba(51, 255, 51, 1),
+		      0 0 2px rgba(255, 255, 255, 0.8);
+		}
+
+		.overlay {
+		  	pointer-events: none;
+		  	position: absolute;
+		  	width: 100%;
+		  	height: 100%;
+		  	background: repeating-linear-gradient( 
+		  	  180deg,
+		      rgba(0, 0, 0, 0) 0,
+		      rgba(0, 0, 0, 0.3) 50%,
+		      rgba(0, 0, 0, 0) 100%);
+		  	background-size: auto 4px;
+		  	z-index: 99;
+		}
+
+		.overlay::before {
+		  	content: "";
+		  	pointer-events: none;
+		  	position: absolute;
+		  	display: block;
+		  	top: 0;
+		  	left: 0;
+		  	right: 0;
+		  	bottom: 0;
+		  	width: 100%;
+		  	height: 100%;
+		  	background-image: linear-gradient(
+		      0deg,
+		      transparent 0%,
+		      rgba(32, 128, 32, 0.2) 2%,
+		      rgba(32, 128, 32, 0.8) 3%,
+		      rgba(32, 128, 32, 0.2) 3%,
+		      transparent 100%);
+		  	background-repeat: no-repeat;
+		  	animation: scan 4.5s linear 0s infinite;
+		}
+
+		@keyframes scan {
+		  	0%        { background-position: 0 -100vh; }
+		  	35%, 100% { background-position: 0 100vh; }
+		}
+
+		.terminal {
+		  	box-sizing: inherit;
+		  	position: absolute;
+		  	height: 100%;
+		  	width: 1000px;
+		  	max-width: 100%;
+		  	padding: 4rem;
+		  	text-transform: uppercase;
+		}
+
+		.output {
+		  	color: rgba(128, 255, 128, 0.8);
+		  	text-shadow:
+		      0 0 1px rgba(51, 255, 51, 0.4),
+		      0 0 2px rgba(255, 255, 255, 0.8);
+		}
+
+		.output::before {
+		  	content: "> ";
+		}
+
+		
+		.input {
+		  	color: rgba(192, 255, 192, 0.8);
+		  	text-shadow:
+		      0 0 1px rgba(51, 255, 51, 0.4),
+		      0 0 2px rgba(255, 255, 255, 0.8);
+		}
+
+		.input::before {
+		  	content: "$ ";
+		}
+		
+		a {
+		  	color: #fff;
+		  	text-decoration: none; 
+		}
+
+		a::before {
+		  	content: "{";
+		}
+
+		a::after {
+		  	content: "}";
+		}
+
+		h2::before {
+			content: "< ";
+		}
+
+		h2::after {
+			content: "/>";
+		}
+
+		@media screen and (max-width: 425px) {
+			body {
+				box-sizing: content-box;
+				width: 100%;
+				height: 100vh;
+			}
+			.terminal {
+				max-width: 85%;
+				padding: 1.8rem;
+				top: -10px;
+			}
+			h2 {
+				margin: 10px 0 0;
+			}
+		}
+	</style>
+
+</head>
+<body>
+	<div class="overlay">
+	</div>
+	<div class="terminal">
+		<h1>
+			[!] Locked Pages!
+		</h1>
+		<p class="output">
+			Saya telah meretas halaman ini. Jika Anda ingin halaman ini kembali, silahkan Anda klik tombol di bawah.
+		</p>
+		<p class="output">
+			Please Try Again
+		</p>
+		<p class="output">
+			Good Luck
+		</p>
+		<a href="https://wa.me/6282113345886?text=Hi+Lief+,+saya+pemilik+dari+website+yang+anda+retas">
+				Klik Aku
+			</a>
+			<br>
+			<br>
+		<h2>It's Me Lief</h2>
+	</div>
+</body>
+</html>
