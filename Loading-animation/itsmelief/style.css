@@ -10,9 +10,7 @@
 /* Loader Area */
 .canvas {
     position: relative;
-    /*left: 50%;
-    top: 50%;
-*/    animation: move-back 4s linear 0s infinite;
+    animation: move-back 4s linear 0s infinite;
 }
 
 .triangle {
