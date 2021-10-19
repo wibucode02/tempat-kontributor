@@ -1,0 +1,21 @@
+header{
+  margin: 0; padding: 2em 5em 4em; color: #efefef;
+  overflow:hidden;
+  position: relative;
+}
+
+header::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width:100%;
+  transform: skewY(-4deg);
+  background: #212F3D;
+  transform-origin: bottom left;
+  z-index: -1;
+}
+
+body{margin:0; background: #efefef;}
+div{padding: 4em 4em 0;}
