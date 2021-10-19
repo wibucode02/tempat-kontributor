@@ -153,3 +153,76 @@ button {
   	width: 100%;
 }
 /* End */
+
+
+/* Button ke-4 */
+.btn-4 {
+  	background-color: #4dccc6;
+	background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  	line-height: 42px;
+  	padding: 0;
+  	border: none;
+}
+.btn-4:hover{
+  	background-color: #89d8d3;
+	background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+}
+.btn-4 span {
+  	position: relative;
+  	display: block;
+  	width: 100%;
+  	height: 100%;
+}
+.btn-4:before,
+.btn-4:after {
+  	position: absolute;
+  	content: "";
+  	right: 0;
+  	top: 0;
+   	box-shadow:  4px 4px 6px 0 rgba(255,255,255,.9),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  	transition: all 0.3s ease;
+}
+.btn-4:before {
+  	height: 0%;
+  	width: .1px;
+}
+.btn-4:after {
+ 	width: 0%;
+  	height: .1px;
+}
+.btn-4:hover:before {
+  	height: 100%;
+}
+.btn-4:hover:after {
+  	width: 100%;
+}
+.btn-4 span:before,
+.btn-4 span:after {
+  	position: absolute;
+  	content: "";
+  	left: 0;
+  	bottom: 0;
+  	box-shadow:  4px 4px 6px 0 rgba(255,255,255,.9),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.9),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+  	transition: all 0.3s ease;
+}
+.btn-4 span:before {
+  	width: .1px;
+  	height: 0%;
+}
+.btn-4 span:after {
+  	width: 0%;
+  	height: .1px;
+}
+.btn-4 span:hover:before {
+  	height: 100%;
+}
+.btn-4 span:hover:after {
+  	width: 100%;
+}
+/* End */
